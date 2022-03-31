@@ -6,7 +6,7 @@ import {QueryClient, QueryClientProvider} from 'react-query';
 const client = new QueryClient();
 
 ReactDOM.render(
-  // Allows for the use of react-query in the file
+  // Allows for the use of react-query in the
   <QueryClientProvider client={client}>
     <App />
   </QueryClientProvider>,
